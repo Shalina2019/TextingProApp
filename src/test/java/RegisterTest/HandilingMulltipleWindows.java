@@ -9,12 +9,15 @@ public class HandilingMulltipleWindows extends BaseTest {
 
 	@Test
 		public void verifyBUyNowButton() {
-			WayToHomePage waytohomepage = new WayToHomePage(BaseTest.driver) {
+			WayToHomePage wt = new WayToHomePage(driver);
 			
-				waytohomepage.clickOnBuyNow();
+			wt.clickOnBuyNow(); 
+					
+				
 			
-			
+	}
 		
+			
 			
 
 	
